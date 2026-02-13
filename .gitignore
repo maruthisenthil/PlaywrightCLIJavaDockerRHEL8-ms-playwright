@@ -8,7 +8,7 @@ logs/
 .idea/
 apache-maven-3.9.12-bin.tar.gz/
 ms-playwright/
-ms-playwright.zip
+#ms-playwright.zip
 
 application.log
 ##############################
