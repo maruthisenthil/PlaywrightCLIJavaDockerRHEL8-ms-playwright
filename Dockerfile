@@ -72,13 +72,11 @@ CMD ["mvn", "test"]
 #-------------------------
 	
 # Commands to build the image and run the container 
+
 #Build Docker Image
 #docker build -t <Docker_Image_Name> . 
 
-#This way, the container writes directly into ./ms-playwright on your host from the container.
-#docker run --rm -v $(pwd)/ms-playwright:/root/.cache/ms-playwright pw_jdk-mvn-chromium-cli:13feb1210pm mvn test -DTest=SimpleTest   
-
-#Loginto the Contianer: 
+#Login to the Contianer: 
 #docker run -it --rm  <Docker_Image_Name> /bin/bash
 
 #Run the docker contianer with SimpleTest Configured in the framework
